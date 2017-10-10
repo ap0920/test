@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" href="css/reset.css">
+<title>Document</title>
+<style type="text/css">
+html{
+font-size: 10px;
+background-color: #F2F2F2;
+}
+/* 导航栏 */
+nav{
+height: 75px;
+padding: 15px 0px 10px 0px;
+background-color: rgba(0, 0, 0, 0.75);
+box-shadow: 0px 4px 4px rgba(0,0,0,0.5);
+text-align: center;
+
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+}
+.logo img{
+height: 44px;
+width: 136px;
+}
+.nav_a{
+margin-top: 20px;
+}
+.nav_a a{
+text-decoration: none;
+color: white;
+font-weight: lighter;
+margin: 0 5.5%;
+font-size: 1.4rem;
+}
+/* 中间内容 */
+.content{
+margin: 0 auto;
+margin-top: 130px;
+width: 75%;
+height: 1000px;
+min-width: 640px;
+max-width: 1200px;
+/*background-color: yellow;*/
+}
+.banner img{
+width: 100%;
+}
+.jieshao{
+margin-top: 20px;
+}
+.jieshao p{
+padding-top: 2%;
+padding-bottom: 2%;
+border-top: 1px solid #E8E8E8;
+border-bottom: 1px solid #E8E8E8;
+font-family: STKaiti;
+font-size: 1.44rem;
+text-indent: 2rem;
+line-height: 1.9rem;
+}
+.xiao_logo{
+text-align: center;
+margin: 2% 0;
+}
+.xiao_logo img{
+width: 38px;
+margin: 0 10px;
+}
+/* a列表 */
+
+.a_list{
+float: left;
+width: 31%;
+background-color: yellow;
+text-decoration: none;
+border: 1px solid red;
+}
+.a_top{
+position: relative;
+}
+.a_top img{
+width: 100%;
+}
+.a_title{
+background-color: white;
+text-align: center;
+color: black;
+height: 35px;
+line-height: 35px;
+font-size: 16px;
+}
+.a_hover{
+width: 100%;
+background-color: rgba(0, 0, 0, 0);
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+}
+.ppp{
+width: 100%;
+position: absolute;
+line-height: 2rem;
+top: 50%;
+margin-top: -20px;
+}
+.ppp p{
+color: rgba(0, 0, 0, 0);
+text-align: center;
+}
+.ppp p:nth-child(1){
+font-size: 2rem;
+}
+.a_list:hover .a_hover{
+background-color: rgba(0, 0, 0, 0.6);
+}
+.a_list:hover .ppp p{
+color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 640px){
+nav{
+height: 65px;
+padding-top: 5px;
+}
+.logo img{
+width: 110px;
+height: 32px;
+}
+.nav_a a{
+font-size: 1.2rem;
+}
+.content{
+margin-top: 90px;
+width: 100%;
+min-width: 0px;
+}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+<div class="logo">
+<img src="img/logo.png" alt="">
+</div>
+<div class="nav_a">
+<a href="###">HOME</a>
+<a href="###">WORK</a>
+<a href="###">CONTACT</a>
+<a href="###">JOIN US</a>
+</div>
+</nav>
+<div class="content">
+<section class="banner">
+<img src="img/banner.png" alt="">
+</section>
+<section class="jieshao">
+<p>Infini Studio（映纷创意）是一家常以设计机构，专注于品质型动画影像的创意与设计。我们使用设计、动画、特效及多种创新形式（Motion Graphic），以动态视觉语言对品牌与内容进行创意呈现。并由动画导演、设计师、插画师、三维艺术家共同协作完成。服务的范围包括广告、影视、交互、新媒体等。</p>
+</section>
+<section class="xiao_logo">
+<img src="img/lian1.jpg" alt="">
+<img src="img/lian2.jpg" alt="">
+<img src="img/lian3.jpg" alt="">
+<img src="img/lian4.jpg" alt="">
+<img src="img/lian5.jpg" alt="">
+<img src="img/lian6.jpg" alt="">
+<img src="img/lian7.jpg" alt="">
+<img src="img/lian8.jpg" alt="">
+<img src="img/lian9.jpg" alt="">
+<img src="img/lian10.jpg" alt="">
+<img src="img/lian11.jpg" alt="">
+<img src="img/lian12.jpg" alt="">
+<img src="img/lian13.jpg" alt="">
+<img src="img/lian14.jpg" alt="">
+</section>
+<section class="zhanshi">
+<a class="a_list" href="###">
+<div class="a_top">
+<img src="img/1.jpg" alt="">
+<div class="a_hover">
+<div class="ppp">
+<p>可口可乐</p>
+<p>可口可乐公司你们的饮料很好喝</p>
+</div>
+</div>
+</div>
+<p class="a_title">
+水动乐水蜜桃口味��
+</p>
+</a>
+<a class="a_list" href="###">
+<div class="a_top">
+<img src="img/1.jpg" alt="">
+<div class="a_hover">
+<div class="ppp">
+<p>可口可乐</p>
+<p>可口可乐公司你们的饮料很好喝</p>
+</div>
+</div>
+</div>
+<p class="a_title">
+水动乐水蜜桃口味��
+</p>
+</a>
+<a class="a_list" href="###">
+<div class="a_top">
+<img src="img/1.jpg" alt="">
+<div class="a_hover">
+<div class="ppp">
+<p>可口可乐</p>
+<p>可口可乐公司你们的饮料很好喝</p>
+</div>
+</div>
+</div>
+<p class="a_title">
+水动乐水蜜桃口味��
+</p>
+</a>
+<a class="a_list" href="###">
+<div class="a_top">
+<img src="img/1.jpg" alt="">
+<div class="a_hover">
+<div class="ppp">
+<p>可口可乐</p>
+<p>可口可乐公司你们的饮料很好喝</p>
+</div>
+</div>
+</div>
+<p class="a_title">
+水动乐水蜜桃口味��
+</p>
+</a>
+<a class="a_list" href="###">
+<div class="a_top">
+<img src="img/1.jpg" alt="">
+<div class="a_hover">
+<div class="ppp">
+<p>可口可乐</p>
+<p>可口可乐公司你们的饮料很好喝</p>
+</div>
+</div>
+</div>
+<p class="a_title">
+水动乐水蜜桃口味��
+</p>
+</a>
+<a class="a_list" href="###">
+<div class="a_top">
+<img src="img/1.jpg" alt="">
+<div class="a_hover">
+<div class="ppp">
+<p>可口可乐</p>
+<p>可口可乐公司你们的饮料很好喝</p>
+</div>
+</div>
+</div>
+<p class="a_title">
+水动乐水蜜桃口味��
+</p>
+</a>
+</section>
+</div>
+<footer></footer>
+</div>
+</body>
+</html>
